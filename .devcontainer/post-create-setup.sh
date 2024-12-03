@@ -8,11 +8,7 @@ cd yolov5
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Upgrade pip and install dependencies
+# Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
-
-# Install OpenCV Python headless
 pip install opencv-python-headless
-
-echo "Setup complete! Activate your environment with 'source .venv/bin/activate'."
